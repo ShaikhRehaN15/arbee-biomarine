@@ -17,7 +17,7 @@ export default function Commitment() {
       <div className="flex flex-col sm:flex-row justify-between gap-[2vh] flex-none">
         <div className="flex items-start">
           <h2 className="text-[clamp(28px,calc(28px+(28*(100vw-320px)/704)),56px)] text-[#323232] font-noto font-bold">
-            What We Do
+            Sustainability
           </h2>
         </div>
         <div className="flex items-start">
@@ -33,7 +33,7 @@ export default function Commitment() {
         </div>
         <div className="flex items-end sm:w-1/2">
           <h3 className="text-[clamp(14px,calc(14px+(2*(100vw-320px)/704)),16px)] text-[#323232] font-noto font-normal leading-snug">
-            Just like Arbee’s product excellence, Arbee Care is built on unwavering commitment to quality and impact:
+          Our commitment to sustainability drives every step we take. By harnessing renewable energy, managing waste responsibly, and capturing rainwater, we minimize our environmental impact. Our green and blue initiatives support sustainable sourcing, preserve marine biodiversity, and promote eco-conscious practices to protect our planet and oceans for future generations.
           </h3>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function Commitment() {
           w-full
           grid
           grid-cols-1
-          md:grid-cols-4
+          md:grid-cols-5
           h-[580px]
           lg:h-full
           mt-[32px]
@@ -60,7 +60,7 @@ export default function Commitment() {
           "
         >
           <h3 className="text-[#454545] font-lato font-regular text-[24px] ">
-          INITIATIVES THAT CREATE LASTING CHANGE
+          Protecting Oceans, Sustaining the Planet
           </h3>
           
          

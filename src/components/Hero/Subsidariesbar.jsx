@@ -127,9 +127,51 @@ export default function Subsidiariesbar() {
           </div>
 
           {/* Desktop buttons */}
-          {(activeIndex === 0 || activeIndex === 3) && (
+          {(activeIndex === 0 || activeIndex === 1 || activeIndex === 2 || activeIndex === 3) && (
             <div className="hidden md:flex gap-4 justify-end z-30 relative">
               {activeIndex === 0 && (
+                <>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold h-[44px] w-[136px] text-[14px] bg-[#052833] text-white flex items-center justify-center tracking-wide"
+                  >
+                    Visit Website
+                  </a> 
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                   className="font-semibold h-[44px] w-[157px] text-[14px] bg-[#FFFFFF4D] border-1 text-white flex items-center justify-center tracking-wide"
+                  >
+                    Enquire Now
+                  </a>
+                
+                </>
+              )}
+              {activeIndex === 1 && (
+                <>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold h-[44px] w-[136px] text-[14px] bg-[#052833] text-white flex items-center justify-center tracking-wide"
+                  >
+                    Visit Website
+                  </a> 
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                   className="font-semibold h-[44px] w-[157px] text-[14px] bg-[#FFFFFF4D] border-1 text-white flex items-center justify-center tracking-wide"
+                  >
+                    Enquire Now
+                  </a>
+                
+                </>
+              )}
+              {activeIndex === 2 && (
                 <>
                   <a
                     href="https://arbeegroup.org/"
@@ -172,9 +214,51 @@ export default function Subsidiariesbar() {
           )}
 
           {/* Mobile buttons */}
-          {(activeIndex === 0 || activeIndex === 3) && (
+          {(activeIndex === 0 || activeIndex === 1 || activeIndex === 2 || activeIndex === 3) && (
             <div className="flex  gap-[20px] w-full md:hidden z-30 relative [@media(max-width:320px)]:flex-col">
               {activeIndex === 0 && (
+                <>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full font-semibold h-[44px] text-[13px] sm:text-[14px] py-[10px] px-[15px] sm:px-[24px] bg-[#052833] text-white tracking-wide text-center flex items-center justify-center"
+                  >
+                    Visit Website
+                  </a>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                   className="w-full font-semibold h-[44px] w-[157px] text-[14px] bg-[#FFFFFF4D] border-1 text-white flex items-center justify-center tracking-wide"
+                  >
+                    Enquire Now
+                  </a>
+                
+                </>
+              )}
+              {activeIndex === 1 && (
+                <>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full font-semibold h-[44px] text-[13px] sm:text-[14px] py-[10px] px-[15px] sm:px-[24px] bg-[#052833] text-white tracking-wide text-center flex items-center justify-center"
+                  >
+                    Visit Website
+                  </a>
+                  <a
+                    href="https://arbeegroup.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                   className="w-full font-semibold h-[44px] w-[157px] text-[14px] bg-[#FFFFFF4D] border-1 text-white flex items-center justify-center tracking-wide"
+                  >
+                    Enquire Now
+                  </a>
+                
+                </>
+              )}
+              {activeIndex === 2 && (
                 <>
                   <a
                     href="https://arbeegroup.org/"

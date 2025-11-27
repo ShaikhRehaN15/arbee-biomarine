@@ -15,10 +15,11 @@ const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 const ENQUIRE_ANIMATION_PATH = '/animations/Get-Support-Animation.json';
 
 const navLinks = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/#about' },
-  { name: 'Initiatives', href: '/#initiatives' },
-  { name: 'Financial Reports', href: '/#financials' },
+  { name: 'About', href: '/' },
+  { name: 'Products', href: '/#about' },
+  { name: 'Technology', href: '/#initiatives' },
+  { name: 'Sustainability', href: '/#financials' },
+  { name: 'Subsidaries', href: '/#footer' },
 ];
 
 const mobileNavLinks = [
